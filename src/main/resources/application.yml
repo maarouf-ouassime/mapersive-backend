@@ -1,0 +1,8 @@
+server:
+  port: 8181
+
+spring:
+  profiles:
+    default: "develop"
+  hateoas:
+    use-hal-as-default-json-media-type: false
